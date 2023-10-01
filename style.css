@@ -1,5 +1,6 @@
 :root{
     --primary: aliceblue;
+    --secondary: rgb(154,138,120);
 }
 
 /* Set fonts */
@@ -48,6 +49,18 @@ a{
     height: 75vh;
 }
 
+.p-6{
+    padding: 5rem;
+}
+
+.text-gold{
+    color: var(--secondary);
+}
+
+.text-aliceblue{
+    color: aliceblue;
+}
+
 /* Navigation bar */
 
 #bg-header{
@@ -80,20 +93,55 @@ a{
     color: rgb(38, 38, 38);
     padding: 15px 30px;
     border-radius: 50px;
-    margin: 0px 25px;
+    margin: 0px 22px;
 }
 
 .fa-brands{
-    margin: 0px 25px;
+    margin: 0px 22px;
 }
 
 .fixed-social{
     position: fixed;
     bottom: 40px;
     right: 25px;
-    left: 25px;
+    left: 22px;
     z-index: 2000;
 }
 
+/*  main */
 
+.bg-main{
+    background: linear-gradient( rgba(0, 0, 0, 0.9) 90%,rgba(0, 0, 0, 0.9) 90%);
+}
 
+.border-custom{
+    border: 1px solid var(--secondary);
+    padding: 0;
+}
+
+/* section service */
+
+.service ul li{
+    margin: 5.4px 0;
+    list-style-type: disc;
+    color: var(--primary);
+}
+
+.btn-service{
+    text-transform: uppercase;
+    background-color: var(--secondary);
+    color: rgb(38, 38, 38);
+    padding: 20px 60px;
+    margin-right: 4rem;
+}
+
+.img-svg{
+    color: var(--primary);
+}
+
+.img-service2{
+    height: 650px;
+    background-image: url(media/img-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
