@@ -1,6 +1,7 @@
 :root{
     --primary: aliceblue;
     --secondary: rgb(154,138,120);
+    --hover: rgb(207,200,192);
 }
 
 body{
@@ -25,6 +26,10 @@ a{
     color: var(--primary);
 }
 
+a:hover{
+    color: var(--hover) !important;
+}
+
 .btn-call{
     background-color: transparent;
     text-transform: uppercase;
@@ -39,7 +44,9 @@ a{
 }
 
 .btn-call:hover{
-    transform: scale(0.9);
+    transform: scale(0.95);
+    border: 1px solid var(--hover);
+    color: var(--hover);
 }
 
 .vh-50{
@@ -60,6 +67,18 @@ a{
 
 .text-aliceblue{
     color: aliceblue;
+}
+
+.text-gold{
+    color: var(--secondary);
+}
+
+.bg-gold{
+    background-color: var(--secondary);
+}
+
+.w-5{
+    width: 5.5%;
 }
 
 /* Navigation bar */
@@ -139,7 +158,6 @@ a{
     background-color: var(--secondary);
     color: rgb(38, 38, 38);
     padding: 20px 60px;
-    margin-right: 4rem;
 }
 
 .btn-service:hover{
@@ -225,4 +243,10 @@ a{
 
 .container-project:hover .text {
     visibility: visible;
+}
+
+/* Recensioni */
+
+.h-reviews{
+    height: 400px;
 }
