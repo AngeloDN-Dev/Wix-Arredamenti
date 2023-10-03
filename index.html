@@ -55,7 +55,7 @@
                             <a class="nav-link" href="#">Contatti</a>
                         </li>
                     </ul>
-                    <li class="nav-item">
+                    <li class="nav-item mt-4 mt-md-0">
                         <button class="btn-call" type="submit">Chiama</button>
                     </li>
                 </div>
@@ -74,15 +74,17 @@
 
         <!-- Social -->
         <div class="container-fluid">
-            <div class="row fixed-social">
-                <div class="col-6 d-flex flex-column aling-items-start p-0">
+            <div class="row fixed-social justify-content-between">
+                <div class="d-flex col-5 flex-column aling-items-start p-0">
                     <a href="#" class="w-5"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" class="w-5"><i class="fa-brands fa-instagram my-4"></i></a>
                     <a href="#" class="w-5"><i class="fa-brands fa-yelp"></i></a>
                 </div>
-                <div class="col-6 d-flex flex-column align-items-end justify-content-end">
-                    <a href="#" class="btn-message fw-bolder"><i
-                            class="fa-solid fa-comment-dots fs-4 me-2"></i>Scriviamoci!</a>
+                <div class="d-flex col-5 flex-column align-items-end justify-content-end p-0">
+                    <a href="#" class="btn-message fw-bolder">
+                        <i class="fa-solid fa-comment-dots fs-4 me-md-2"></i>
+                        <span class="d-none d-md-flex">Scriviamoci!</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -96,12 +98,12 @@
         <!-- I nostri servizi -->
         <section class="container-fluid p-6">
             <div class="row">
-                <div class="col-6 border-custom">
+                <div class="col-12 col-md-6 border-custom">
                     <img src="media/img-1.webp" class="w-100">
                 </div>
 
-                <div class="col-6 border-custom d-flex flex-column align-items-center justify-content-center">
-                    <div>
+                <div class="col-12 col-md-6 border-custom d-flex flex-column align-items-center justify-content-center">
+                    <div class="mt-5">
                         <h2 class="display-5">I nostri Servizi</h2>
                         <div class="service">
                             <ul class="p-2 ms-4">
@@ -113,15 +115,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="mt-5">
-                        <a href="#" class="btn-service me-5">Leggi di più</a>
+                    <div class=" mt-md-4 mb-5 mb-md-0">
+                        <a href="#" class="btn-service me-md-5">Leggi di più</a>
                     </div>
                 </div>
             </div>
 
             <!-- seconda riga -->
             <div class="row">
-                <div class="col-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
+                <div class="col-12 col-md-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="20.005 16.396 160 167.324"
                         viewBox="20.005 16.396 160 167.324" height="150" width="80" xmlns="http://www.w3.org/2000/svg"
                         data-type="color" role="presentation" aria-hidden="true" aria-label="">
@@ -141,10 +143,10 @@
                                 data-color="1"></path>
                         </g>
                     </svg>
-                    <p class="w-25 text-center">Ampia esperienza</p>
+                    <p class="text-center">Ampia esperienza</p>
                 </div>
 
-                <div class="col-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
+                <div class="col-12 col-md-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160"
                         height="150" width="80" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
                         aria-hidden="true" aria-label="">
@@ -172,11 +174,11 @@
                                 fill="#978673" data-color="1"></path>
                         </g>
                     </svg>
-                    <p class="w-25 text-center ">Un team di
+                    <p class="text-center ">Un team di
                         professionisti</p>
                 </div>
 
-                <div class="col-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
+                <div class="col-12 col-md-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" viewBox="20 20 160 160"
                         height="150" width="80" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
                         aria-hidden="true" aria-label="">
@@ -196,7 +198,7 @@
                     <p>Alte finiture</p>
                 </div>
 
-                <div class="col-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
+                <div class="col-12 col-md-3 border-custom d-flex flex-column align-items-center p-5 img-svg">
                     <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 23.185 160 153.629"
                         viewBox="20 23.185 160 153.629" height="150" width="80" xmlns="http://www.w3.org/2000/svg"
                         data-type="color" role="presentation" aria-hidden="true" aria-label="">
@@ -223,23 +225,29 @@
                             <path fill="#978673" d="M72.457 60.932v79.518h-4.035V60.932h4.035z" data-color="1"></path>
                         </g>
                     </svg>
-                    <p class="w-25 text-center ">Sostenibili e affidabili</p>
+                    <p class="text-center ">Sostenibili e affidabili</p>
                 </div>
             </div>
 
+            <!-- terza riga -->
             <div class="row">
-                <div class="col-6 border-custom d-flex flex-column justify-content-center w-50 align-items-center">
-                    <div class="w-50">
-                        <h2 class="mb-5 fs-1">Chi siamo</h2>
-                        <h4 class="w-50 text-gold">Restyling residenziale Baldi</h4>
+                <div class="col-12 col-md-6 border-custom d-flex flex-column justify-content-center align-items-start align-items-md-center">
+                    <div class="mt-4 mt-md-0 chi-siamo">
+                        <h2 class="mb-4 mb-md-5 fs-1 ms-3 ms-md-0">Chi siamo</h2>
+                        <h4 class="ms-3 ms-md-0 text-gold">Restyling residenziale Baldi</h4>
+
+                        <div class="mb-5 mb-md-0 mt-4">
+                            <p class="text-aliceblue ms-3 ms-md-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                                error eaque consequatur aperiam, repudiandae ex explicabo illo. Aperiam incidunt, non, nostrum
+                                id labore sapiente error soluta impedit nemo, voluptatem sed. Lorem ipsum, dolor sit amet
+                                consectetur.</p>
+                        </div>
                     </div>
-                    <p class="w-50 mt-4 text-aliceblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                        error eaque consequatur aperiam, repudiandae ex explicabo illo. Aperiam incidunt, non, nostrum
-                        id labore sapiente error soluta impedit nemo, voluptatem sed. Lorem ipsum, dolor sit amet
-                        consectetur.</p>
+                    
+                    
                 </div>
 
-                <div class="col-6 border-custom">
+                <div class="col-12 col-md-6 border-custom">
                     <div class="img-service2"></div>
                 </div>
             </div>
@@ -257,8 +265,8 @@
 
         <div class="container-fluid p-6">
             <div class="row">
-                <div class="col-5 p-0 d-flex">
-                    <div class="col-6">
+                <div class="col-12 col-md-5 p-0 d-md-flex d-block">
+                    <div class="col-12 col-md-6">
                         <div class="container-project">
                             <img src="media/project-1.webp" class="img-project">
                             <div class="text">Progetto Villa</div>
@@ -270,7 +278,7 @@
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <div class="container-project">
                             <img src="media/project-3.webp" class="img-project3">
                             <div class="text">Progetto Villa</div>
@@ -282,8 +290,8 @@
                     </div>
                 </div>
 
-                <div class="col-7 p-0">
-                    <div class="ms-4 h-100 container-project w-100">
+                <div class="col-12 col-md-7 p-0">
+                    <div class="ms-0 ms-md-4 h-100 container-project w-100">
                         <img src="media/project-5.webp" class="img-project5">
                         <div class="text">Progetto Villa</div>
                     </div>
@@ -300,41 +308,43 @@
         <!-- Recensioni -->
         <section class="container-fluid p-6">
             <div class="row h-reviews">
-                <div class="col-3 bg-gold d-flex align-items-center justify-content-center">
+                <div class="col-12 col-md-3 bg-gold d-flex align-items-center justify-content-center h-title-reviews">
                     <h2 class="display-6">Recensioni</h2>
                 </div>
 
-                <div class="col-3 d-flex align-items-center flex-column justify-content-center border-custom">
-                    <div class="w-75 p-5">
+                <div class="col-12 col-md-3 d-flex align-items-center flex-column justify-content-center border-custom">
+                    <div class="p-5">
                         <p class="text-aliceblue">“Questa è una recensione. Clicca qui per aggiungere testi che dicano
                             qualcosa di interessante su di te e i tuoi servizi. Consenti ai clienti di condividere la
                             loro opinione con altri.”
                         </p>
-                    </div>
-                    <div class="w-75 ps-5">
-                        <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        <div class="mt-5">
+                            <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3 d-flex align-items-center flex-column justify-content-center border-custom">
-                    <div class="w-75 p-5">
+
+                <div class="col-12 col-md-3 d-flex align-items-center flex-column justify-content-center border-custom">
+                    <div class="p-5">
                         <p class="text-aliceblue">“Questa è una recensione. Clicca qui per aggiungere testi che dicano
                             qualcosa di interessante su di te e i tuoi servizi. Consenti ai clienti di condividere la
                             loro opinione con altri.”
                         </p>
-                    </div>
-                    <div class="w-75 ps-5">
-                        <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        <div class="mt-5">
+                            <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3 d-flex align-items-center flex-column justify-content-center border-custom">
-                    <div class="w-75 p-5">
+
+                <div class="col-12 col-md-3 d-flex align-items-center flex-column justify-content-center border-custom">
+                    <div class="p-5">
                         <p class="text-aliceblue">“Questa è una recensione. Clicca qui per aggiungere testi che dicano
                             qualcosa di interessante su di te e i tuoi servizi. Consenti ai clienti di condividere la
                             loro opinione con altri.”
                         </p>
-                    </div>
-                    <div class="w-75 ps-5">
-                        <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        <div class="mt-5">
+                            <h6 class="text-gold fs-3">Fam. Romolo</h6>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -348,21 +358,21 @@
     <footer class="bg-main">
         <div class="container-fluid p-6">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <a class="navbar-brand" href="#">
                         <span class="m-0">Restyling</span>
                         <span class="m-0">Residenziale</span>
                         <span class="m-0">Baldi</span>
                     </a>
                     <p class="my-4 text-gold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi natus optio repellat totam facilis ad expedita ipsam? Et amet nisi, aliquam hic omnis dolores! Ex, magnam. Illum tempora tenetur est.</p>
-                    <div class="w-25 text-gold">
+                    <div class="text-gold">
                         <span class="copy">© 2035 by Restyling residenziale Baldi. Creato con html.css.js</span>
                     </div>
                     
                 </div>
 
-                <div class="col-7 d-flex">
-                    <div class="col-4 ms-5">
+                <div class="col-12 col-md-7 d-md-flex">
+                    <div class="col-12 col-md-4 ms-md-5 mt-5 mt-md-0">
                         <h3 class="text-aliceblue">Links</h3>
                         <ul class="p-0">
                             <li class="my-3">
@@ -380,7 +390,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mt-5 mt-md-0">
                         <h3 class="text-aliceblue">Social</h3>
                         <ul class="p-0 mt-3">
                             <li>
@@ -395,7 +405,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mt-5 mt-md-0">
                         <h3 class="text-aliceblue">Contatto</h3>
                         <ul class="p-0 mt-3">
                             <li>

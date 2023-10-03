@@ -99,6 +99,30 @@ a:hover{
     margin: 0px 25px;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-brand span{
+        margin: 0px 7px;
+    }
+
+    .navbar{
+        background-color: rgb(38, 38, 38);
+        padding: 2rem 0px;
+    }
+
+    .nav-item a{
+        border-bottom: 1px solid var(--primary);
+        margin-bottom: 6px !important;
+    }
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0px 0px 0px 3px var(--secondary);
+}
+
 .nav-item a{
     font-size: 14px;
     color: var(--primary);
@@ -120,6 +144,14 @@ a:hover{
 
 .btn-message:hover{
     background-color: rgba(154, 138, 120, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .btn-message{
+        padding: 13px 13px;
+        border-radius: 100px;
+        margin: 0;
+    }
 }
 
 .fa-brands{
@@ -160,8 +192,20 @@ a:hover{
     padding: 20px 60px;
 }
 
+@media screen and (max-width: 768px) {
+    .btn-service{
+        padding: 10px 25px;
+    }
+}
+
 .btn-service:hover{
     background-color: rgba(154, 138, 120, 0.8);
+}
+
+@media screen and (min-width: 768px){
+    .chi-siamo{
+        width: 50%;
+    }
 }
 
 .img-svg{
@@ -179,6 +223,33 @@ a:hover{
 .container-project{
     position: relative;
     width: 310px;
+}
+
+@media screen and (max-width: 768px){
+    .container-project{
+        width: 252px !important;
+    }
+
+    .img-project{
+        width: 100% !important;
+    }
+
+    .img-project2{
+        width: 100% !important;
+    }
+
+    .img-project3{
+        width: 100% !important;
+        margin-top: 38px;
+    }
+
+    .img-project4{
+        width: 100% !important;
+    }
+
+    .img-project5{
+        margin-top: 38px;
+    }
 }
 
 .container-project:hover img{
@@ -246,6 +317,16 @@ a:hover{
 }
 
 /* Recensioni */
+
+@media screen and (max-width: 768px) {
+    .h-title-reviews{
+        height: 150px;
+    }
+
+    .h-reviews{
+        height: 100% !important;
+    }
+}
 
 .h-reviews{
     height: 400px;
