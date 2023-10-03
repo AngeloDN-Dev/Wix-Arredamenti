@@ -1,0 +1,23 @@
+.img-servizi1{
+    background-image: url(/media/servizi1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+}
+
+.img-servizi2{
+    height: 100%;
+    background-image: url(/media/servizi2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.list-style{
+    list-style-type: disc;
+}
+
+ul .list-style{
+    margin: 10px;
+}
